@@ -7,7 +7,11 @@
 
     <title>Mobile First</title>
     <!-- attach styles here -->
-    <link rel="stylesheet" href="css/mobile.css">
+
+    <link rel="stylesheet" href="css/mobile.css"/>
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width : 720px"/>
+    
+
   </head>
   <body>
     <div class="container">
@@ -15,15 +19,20 @@
         <div class="logo">
           <img src="images/webLogo.svg" alt="" />
         </div>
-
+        
         <div class="loginLinks">
           <ul>
             <li><a href="">Login</a></li>
             <li><a href="">Register</a></li>
           </ul>
         </div>
-        <!-- Burger menu here -->
-
+        <div class="burgerMenu">
+          <div class="bars">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
         <!-- Search input here -->
       </header>
       <nav class="mainNav">
@@ -189,5 +198,7 @@
       </footer>
     </div>
     <!-- Javascript links here -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

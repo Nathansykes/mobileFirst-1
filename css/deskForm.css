@@ -1,0 +1,32 @@
+
+.form input{
+    width: 40%;
+}
+
+.form textarea{
+    width: 40%;
+}
+
+.inlineLabels label {
+    width: 40%;
+    display: flex;
+}
+
+.inlineLabels input {
+    display: flex;
+}
+.inlineLabels input[type="radio"] {
+    width: 20px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.form select{
+    width: 40%;
+    margin-bottom: 10px;
+    
+}
+
+.form input[type="submit"]{
+    padding: 5px 5px;
+    margin-bottom: 30px;;
+}

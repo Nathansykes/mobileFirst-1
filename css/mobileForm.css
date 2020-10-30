@@ -1,0 +1,37 @@
+
+
+.form input{
+    width: 100%;
+}
+.form textarea{
+    width: 100%;
+}
+.inlineLabels p{
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+.inlineLabels  input[type="radio"]{
+    width: 20px;
+    margin-bottom: 10px;
+}
+.form select{
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.mailingList{
+    display: flex;
+    margin-bottom: 20px;
+}
+.mailingList input[type="checkbox"]{
+    width: 30px;
+}
+
+.form label{
+    display: block;
+}
+
+.form input[type="submit"]{
+    padding: 15px;
+    margin-bottom: 30px;;
+}
